@@ -338,6 +338,12 @@ footer
 .footer-container ul li a {
     text-decoration: none;
     color: #848391;
+    transition: all 0.3s ease;
+}
+
+.footer-container ul li a:hover
+{
+    color: #4E47FF;
 }
 /* universal style */
 
