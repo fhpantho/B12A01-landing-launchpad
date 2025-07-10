@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body {
+    background-color: #D6DDED;
+}
 /* header style start */
 header
 {
@@ -23,7 +26,7 @@ nav {
 nav h1 {
     color: #4E47FF;
     font-size: 34px;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Inter", sans-serif;
     border-bottom: 1px solid transparent;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -36,7 +39,27 @@ nav h1:hover {
 
 /* navigation style end here */
 
+/* banner style start here */
 
+.banner-container {
+    font-family: "Raleway", sans-serif;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.banner-container h1 {
+
+    font-size: 65px;
+    font-weight: bold;
+    color: #252432;
+    text-align: center;
+    margin-bottom: 40px;
+}
+/* banner style end here */
 
 
 /* header style end here */
