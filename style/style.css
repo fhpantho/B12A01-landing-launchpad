@@ -217,6 +217,42 @@ nav h1:hover {
     font-family: "Inter", sans-serif;
 }
 
+/* userfeedback style end here */
+
+/* advertisement style here start */
+
+.advertisement
+{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    margin-bottom: 90px;
+}
+.advertisement  h1 {
+    font-family: "Railway", sans-serif;
+    font-size: 50px;
+    font: bold;
+    color: #252432;
+    padding-top: 40px;
+
+}
+
+.advertisement p{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color: #848391;
+    padding-bottom: 30px;
+}
+
+.advertisement img {
+    margin-top: 30px;
+    border-radius: 44px;
+    margin-bottom: 70px;
+}
 /* universal style */
 
 .btn-primary
