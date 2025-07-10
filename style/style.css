@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-    background-color: #D6DDED;
+    background-color: #f5f8fe;
 }
 /* header style start */
 header
@@ -64,7 +64,43 @@ nav h1:hover {
 
 /* header style end here */
 
+/* action section style sart here */
+.action-container
+{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 115px;
+    font-family: "Railway", sans-serif;
+    column-gap: 220px;
+}
 
+
+.action-details {
+    width: 515px;
+    justify-content: left;
+}
+
+
+.action-title {
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+
+.action-preview {
+    font-size: 24px;
+    font-weight: lighter;
+    color: #63636e;
+    margin-bottom: 23px;
+}
+
+.action-preview-image img
+{
+    border-radius: 48px;
+}
 
 /* universal style */
 
