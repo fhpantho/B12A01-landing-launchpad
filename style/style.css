@@ -4,6 +4,8 @@
 }
 body {
     background-color: #f5f8fe;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 /* header style start */
 header
@@ -73,8 +75,8 @@ nav h1:hover {
     margin: 0 auto;
     align-items: center;
     margin-top: 115px;
+    padding: 0;
     font-family: "Railway", sans-serif;
-    column-gap: 220px;
 }
 
 
@@ -101,6 +103,55 @@ nav h1:hover {
 {
     border-radius: 48px;
 }
+/* action section style end here */
+
+/* productive user section style start here */
+.productive-container
+{
+    max-width:  1140px;
+    margin: 0 auto;
+    background-color: #e6e7fd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 115px;
+    margin-bottom: 140px;
+}
+.productive-container h1 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    font-family: "Railway", sans-serif;
+}
+
+.productive-user-details
+{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 158px;
+}
+.productive-user
+{
+    text-align: center;
+    margin-top: 40px;
+}
+.productive-user h1
+{
+    font-family: "Inter", sans-serif;
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: bolder;
+}
+.productive-user h3  {
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: "Inter", sans-serif;
+}
+/* productive user section style end here */
 
 /* universal style */
 
