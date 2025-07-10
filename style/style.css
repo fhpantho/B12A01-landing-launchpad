@@ -253,6 +253,51 @@ nav h1:hover {
     border-radius: 44px;
     margin-bottom: 70px;
 }
+
+/* advertisement style end here */
+
+/* form section style start */
+.form-container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1170px;
+    margin: 0 auto;
+    column-gap: 115px;
+}
+.form-container form
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    row-gap: 10px;
+    padding-bottom: 70px;
+}
+.form-container form label {
+    font-size: 14px;
+    color: #252432;
+}
+.form-container form input {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+
+}
+.form-container form textarea {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    
+}
+.form-container form button {
+    padding-top: -10px;
+    
+}
+.form-container h1
+{
+    font-size: 70px;
+}
 /* universal style */
 
 .btn-primary
